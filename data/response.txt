@@ -1,0 +1,45 @@
+Number of alternatives:5
+RER
+METRO1
+METRO2
+BUS
+TAXI
+ 
+Number of criteria:3
+Price
+Time
+Comfort
+ 
+Multicriteria Matrix:
+ 3  10   1
+ 4  20   2
+ 2  20   0
+ 6  40   0
+30  30   3
+ 
+User Ranking:
+   1
+   2
+   2
+   4
+   5
+The intervals:
+30  16   2  40  30  20  10   0   1   2   3
+ 
+Global Utility as function of marginal utilities:
+0.0714      0.9286           0           0           1           1           0           0
+0.1429      0.8571           0           1           0           0           1           0
+     0           1           0           1           0           0           0           0
+0.2857      0.7143           0           0           0           0           0           0
+     0           0           1           0           0           0           0           1
+ 
+Global Utility as function of weights:
+1      0.9286           1           1           1           1           0           0
+1      0.8571           1           1           0           1           1           0
+1           1           1           1           0           0           0           0
+1      0.7143           0           0           0           0           0           0
+0           0           1           0           0           1           1           1
+Solving initial LP with Simplex...
+ 
+Delta = 0.05
+ 

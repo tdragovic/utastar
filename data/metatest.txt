@@ -1,0 +1,4 @@
+Cri/atributes 	Monocity	Type	Worst	Best	a
+Price	1	0	30	2	3
+Time	1	0	40	10	4
+Comfort	0	1	0	3	4
