@@ -114,13 +114,13 @@ AAeq=[deltaeq sigmaseq];
 f=[ zeros(1,size(delta,2)) ones(1,size(sigmas,2)) ];
 LB=zeros(length(f),1);
 
-disp('Solving initial LP with Simplex...')
+disp('Solving initial LP with dual-simplex...')
 disp(' ')
 text2=['Delta = ', num2str(d)];
 disp(text2)
 disp(' ')
 
-options = optimset('Algorithm','simplex');
+options = optimset('Algorithm','dual-simplex');
 [x,fval,exitflag] = linprog(f',AA,b,AAeq,beq,LB,[],[],options);
 xfinal=x(1:size(delta,2),:);
 
@@ -138,7 +138,7 @@ if fpost==1
     text1=['Starting post-optimization phase with Epsilon = ',num2str(epsilon)];
     disp(text1)
     disp(' ')
-    options = optimset('Algorithm','simplex','Display','none');
+    options = optimset('Algorithm','dual-simplex','Display','none');
     AApost=[AA;f];
     bpost=[b;fval+epsilon];
     for c=1:n

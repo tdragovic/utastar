@@ -1,0 +1,85 @@
+Number of alternatives:5
+RER
+METRO1
+METRO2
+BUS
+TAXI
+ 
+Number of criteria:3
+Price
+Time
+Comfort
+ 
+Multicriteria Matrix:
+ 3  10   1
+ 4  20   2
+ 2  20   0
+ 6  40   0
+30  30   3
+ 
+User Ranking:
+     1
+     2
+     2
+     4
+     5
+
+The intervals:
+30  16   2  40  30  20  10   0   1   2   3
+ 
+Global Utility as function of marginal utilities:
+0.0714      0.9286           0           0           1           1           0           0
+0.1429      0.8571           0           1           0           0           1           0
+     0           1           0           1           0           0           0           0
+0.2857      0.7143           0           0           0           0           0           0
+     0           0           1           0           0           0           0           1
+ 
+Global Utility as function of weights:
+1      0.9286           1           1           1           1           0           0
+1      0.8571           1           1           0           1           1           0
+1           1           1           1           0           0           0           0
+1      0.7143           0           0           0           0           0           0
+0           0           1           0           0           1           1           1
+Solving initial LP with Simplex...
+ 
+Delta = 0.05
+ 
+
+Optimal solution found.
+
+ 
+Solution found with sum of error = 0
+ 
+Solution of LP:
+0       0.875           0           0           0       0.125           0           0
+ 
+Starting post-optimization phase with Epsilon = 0.0001
+ 
+Solving LP for max[u1(g1*)]...
+0.7626       0.175           0           0      0.0374       0.025           0           0
+Solving LP for max[u2(g2*)]...
+0.0499           0           0        0.05      0.9001           0           0           0
+Solving LP for max[u3(g3*)]...
+0.3562       0.175           0           0      0.0375       0.025           0      0.4063
+Average:
+0.3896      0.1167           0      0.0167       0.325      0.0167           0      0.1354
+ 
+Utilities:
+U[g(RER)] = 0.8562
+U[g(METRO1)] = 0.5229
+U[g(METRO2)] = 0.5229
+U[g(BUS)] = 0.4729
+U[g(TAXI)] = 0.1521
+ 
+Tau of Kendall = 1
+ 
+marginal utility(final solution):
+30           16            2           40           30           20           10            0            1            2            3
+ 0       0.3896       0.5062            0            0       0.0167       0.3417            0       0.0167       0.0167       0.1521
+ 
+Model:
+ 
+u(g)=
+       0.5062*u1(g1)
+      +0.3417*u2(g2)
+      +0.1521*u3(g3)

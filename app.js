@@ -6,9 +6,8 @@ const utastarRoutes = require('./routes/utaStarRoutes');
 
 
 app.use(cors());
-app.use(bodyParser({limit: '100mb'}));
 app.use(bodyParser.urlencoded({ extended: false }));
-app.use(bodyParser.text());
+app.use(bodyParser.json({limit: '100mb'}));
 
 
 app.use('/utastar', utastarRoutes);

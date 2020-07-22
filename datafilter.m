@@ -1,5 +1,6 @@
 function  M = datafilter(M,A)
 %check for empty/NaN values monocity
+disp(M);
 logic1 = isnan(M(:,1));
 if any(logic1)
     M(logic1,1) = 0;

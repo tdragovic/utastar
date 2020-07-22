@@ -1,6 +1,6 @@
-Alt/cri	Price	Time	Comfort	Ranking
+alt/cri	PRICE	TIME	COMFORT	Ranking
 RER	3	10	1	1
 METRO1	4	20	2	2
 METRO2	2	20	0	2
-BUS	6	40	0	4
+BUS	6	40	4	4
 TAXI	30	30	3	5
