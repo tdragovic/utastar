@@ -16,7 +16,7 @@ Internet
 
 Browser – used Google Chrome Version 84.0.4147.89 (Official Build) (64-bit)
 
-##Installation instructions
+## Installation instructions
 
 Angular Deployment instructions - https://angular.io/start/start-deployment
 
