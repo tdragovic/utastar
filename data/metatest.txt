@@ -1,0 +1,4 @@
+Cri/Attributes	Monotonocity	Type	Worst	Best	a
+PRICE	1	0	30	3	3
+TIME	1	0	40	10	4
+COMFORT	0	1	0	4	4
